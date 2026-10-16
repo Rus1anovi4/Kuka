@@ -1,6 +1,7 @@
 import React from 'react';
 import { RK_CRIMINAL_ARTICLES } from '../data/cyberData';
 import { Scale, Brain, Cpu, ShieldCheck } from 'lucide-react';
+import forensicsImg from '../assets/images/cyber_forensics_investigation_1792037792643.jpg';
 
 export const CriminalCodeSection: React.FC = () => {
   return (
@@ -56,7 +57,7 @@ export const CriminalCodeSection: React.FC = () => {
             <div>
               <div className="relative rounded-xl overflow-hidden mb-5 border border-slate-800 h-48">
                 <img
-                  src="/src/assets/images/cyber_forensics_investigation_1792037792643.jpg"
+                  src={forensicsImg}
                   alt="Криминалистическая лаборатория исследования цифровых носителей"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"

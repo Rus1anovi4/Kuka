@@ -1,5 +1,6 @@
 import React from 'react';
 import { Presentation, ShieldAlert, Award, ArrowDown } from 'lucide-react';
+import socDefenseCenterImg from '../assets/images/soc_defense_center_1792037792575.jpg';
 
 interface HeroSectionProps {
   onStartPresentation: () => void;
@@ -68,7 +69,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({
           {/* Right Column: Hero Visual Asset */}
           <div className="lg:col-span-5 relative rounded-2xl overflow-hidden border border-slate-800 bg-slate-900 shadow-xl min-h-[300px] lg:min-h-full">
             <img
-              src="/src/assets/images/soc_defense_center_1792037792575.jpg"
+              src={socDefenseCenterImg}
               alt="Центр оперативного управления и мониторинга киберугроз МВД"
               className="w-full h-full object-cover object-center"
               referrerPolicy="no-referrer"
